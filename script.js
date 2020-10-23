@@ -13,6 +13,8 @@ function getRandomNumber() {
 
 // Helper function 2
 function addNumberToPage(number) {
+    const div = document.getElementById('lada')
+    div.append(number + ', ');
     console.log(number);
 
 }
